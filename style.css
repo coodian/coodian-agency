@@ -1,3 +1,111 @@
-body {
-  background-color: green;
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.banner {
+}
+
+.liner__gradien__banner {
+  position: absolute;
+  opacity: 0.8;
+  background: linear-gradient(
+    rgb(0, 19, 45) 0%,
+    rgb(0, 19, 45) 1.33%,
+    rgb(0, 19, 45) 2.66%,
+    rgb(0, 19, 45) 3.99%,
+    rgb(0, 19, 45) 5.32%,
+    rgba(0, 19, 45, 0.99) 6.65%,
+    rgba(0, 19, 45, 0.99) 7.98%,
+    rgba(0, 19, 45, 0.99) 9.31%,
+    rgba(0, 19, 45, 0.99) 10.64%,
+    rgba(0, 19, 45, 0.98) 11.97%,
+    rgba(0, 19, 45, 0.98) 13.3%,
+    rgba(0, 19, 45, 0.98) 14.63%,
+    rgba(0, 19, 45, 0.97) 15.96%,
+    rgba(0, 19, 45, 0.97) 17.29%,
+    rgba(0, 19, 45, 0.96) 18.62%,
+    rgba(0, 19, 45, 0.96) 20%,
+    rgba(1, 20, 47, 0.96) 25.33%,
+    rgba(2, 21, 49, 0.96) 30.66%,
+    rgba(5, 25, 54, 0.95) 35.99%,
+    rgba(8, 29, 62, 0.95) 41.32%,
+    rgba(12, 33, 69, 0.94) 46.65%,
+    rgba(18, 40, 81, 0.93) 51.98%,
+    rgba(24, 48, 94, 0.92) 57.31%,
+    rgba(31, 56, 107, 0.91) 62.64%,
+    rgba(38, 65, 122, 0.89) 67.97%,
+    rgba(47, 75, 139, 0.88) 73.3%,
+    rgba(55, 84, 156, 0.87) 78.63%,
+    rgba(64, 96, 175, 0.85) 83.96%,
+    rgba(73, 107, 194, 0.83) 89.29%,
+    rgba(84, 119, 214, 0.82) 94.62%,
+    rgba(93, 130, 233, 0.8) 100%
+  );
+  width: -webkit-fill-available;
+  height: 100vh;
+}
+
+.banner .banner__background {
+  width: -webkit-fill-available;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.banner__content {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 10vh;
+  color: white;
+}
+
+.banner__content h1 {
+  font-size: 14.65vh;
+  font-weight: 600;
+  line-height: 115px;
+  letter-spacing: 2px;
+  margin: -9px 0px 0px 0px;
+}
+
+.banner__content p {
+  font-size: 4.5vh;
+  letter-spacing: 10px;
+  font-weight: 600;
+  margin-top: 17px;
+  color: #58dcc8;
+}
+
+.logo {
+  max-width: 100%;
+  height: 15.5vh;
+}
+
+.down__arrow_indicator {
+  top: 74%;
+  right: 45px;
+  animation: down_arrow infinite 1.5s ease-in-out;
+}
+
+.down_arrow {
+}
+.down_arrow_1 {
+  top: 13px;
+  opacity: 0.6;
+}
+
+.down_arrow_2 {
+  top: 26px;
+  opacity: 0.3;
+}
+
+@keyframes down_arrow {
+  0% {
+    top: 74%;
+  }
+  50% {
+    top: 78%;
+  }
+  100% {
+    top: 74%;
+  }
 }
