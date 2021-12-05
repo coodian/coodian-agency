@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 .who-we-section, .projects-section {
-=======
-.who-we-section {
->>>>>>> 26a8ad46fdde1a2fd2667f7d2f149040c39bd3a6
   padding: 30px 100px;
   background-color: #fffbf5;
 }
@@ -33,7 +29,6 @@
   margin-bottom: 10px;
   color: #58dcc8;
 }
-<<<<<<< HEAD
 .projects-tab ul li {
   list-style: none;
   font-size: 21px;
@@ -44,5 +39,26 @@
   border-radius: 7px;
   cursor: pointer;
 }
-=======
->>>>>>> 26a8ad46fdde1a2fd2667f7d2f149040c39bd3a6
+.projects-image img{
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.projects-image{
+  position: relative;
+}
+.projects-image:hover::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color:rgba(8, 8, 8, 0.219);
+  z-index: 1;
+  cursor: pointer;
+}
+/* .projects-image img:hover{
+  background-color: red;
+  margin-top: 10%;
+} */
