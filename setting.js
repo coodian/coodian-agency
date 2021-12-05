@@ -6,12 +6,11 @@ for (var i = 0; i < btns.length; i++) {
         var current = document.getElementsByClassName("active__nav__link");
         current[0].className = current[0].className.replace(" active__nav__link", "");
         this.className += " active__nav__link";
-        console.log(current);
     });
 }
-console.log(btns)
+// end
 
-
+// for parlax animation
 const paralaxDiv = document.getElementById('headerContentDiv');
 let paralaxLeft = document.querySelector('.paralax__left')
 let paralaxRight = document.querySelector('.paralax__right')
@@ -23,8 +22,6 @@ paralaxDiv.addEventListener('mousemove', e => {
 
     let mX = center / window.innerWidth * 360;
 
-    console.log('center:', center, 'mx:', mX);
-
     paralaxLeft.style.left = (mX * -1) - 504 + 'px'
     paralaxRight.style.left = (mX * -1) + 504 + 'px'
 })
@@ -33,3 +30,19 @@ paralaxDiv.addEventListener('mouseout', e => {
     paralaxLeft.style.left = '-504px'
     paralaxRight.style.left = '504px'
 })
+// end
+
+// navbar sticky
+
+window.onscroll = function () { myFunction() };
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+    if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+    } else {
+        navbar.classList.remove("sticky");
+    }
+}

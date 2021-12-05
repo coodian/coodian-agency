@@ -143,7 +143,8 @@
   animation: seven_agency_text_animate 0.5s ease-in-out 0.9s forwards;
   position: absolute;
   top: 280px;
-  left: 21%;
+  /* left: 10%; */
+  left: 16.5%;
   opacity: 0;
 }
 
@@ -313,6 +314,8 @@
   height: 70px;
   z-index: 10;
   background-color: #00081587;
+  position: absolute;
+  bottom: 0;
 }
 
 .nav__logo a img {
@@ -376,4 +379,9 @@
 
 .test__icon {
   transform: rotate(-23deg);
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
 }
