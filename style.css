@@ -416,3 +416,62 @@
   margin-bottom: 10px;
   color: #58dcc8;
 }
+
+/* price cart design */
+
+.team__top__text h4 {
+  color: #58dcc8;
+  font-size: 16px;
+  font-family: "Libre Franklin", Helvetica, Arial, Verdana, sans-serif;
+  margin-bottom: 30px;
+}
+
+.team__top__text h2 {
+  color: #314951;
+  font-size: 32px;
+  font-family: "Libre Franklin", Helvetica, Arial, Verdana, sans-serif;
+  margin-bottom: 100px;
+}
+
+.single__price__cart {
+  font-family: "Libre Franklin", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.single__price__cart h3 {
+  font-weight: 500;
+  font-size: 21px;
+}
+.company__text {
+  color: #58dcc8;
+}
+.price {
+  font-family: "Libre Franklin", Helvetica, Arial, Verdana, sans-serif;
+}
+.price__dollar__sign {
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.price__dollar {
+  font-size: 60px;
+  font-weight: 500;
+}
+.price__cent {
+  margin-top: 16px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.price__cart__service__list {
+  font-family: "Libre Franklin", Helvetica, Arial, Verdana, sans-serif;
+}
+.price__cart__service__list li {
+  list-style: none;
+  line-height: 40px;
+}
+
+.price__cart__service__list li div span {
+  font-family: "Libre Franklin", Helvetica, Arial, Verdana, sans-serif;
+}
+.price__cart__description div {
+  font-family: "Libre Franklin", Helvetica, Arial, Verdana, sans-serif !important;
+}
